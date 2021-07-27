@@ -1,0 +1,19 @@
+Git Steps: 
+
+Step 1 : Create new folder
+2. Right click folder n Open Git Bash
+3. Inside folder, create new file test.txt
+4. In Git Bash:
+	- git init
+	- git status
+	- git add file-name (Stag)..Multiple files: git add .
+	- git status
+	- git commit -m "Comments"
+	- git branch -M main
+	- git remote add origin (link in Github)
+	- git push -u origin main
+
+For first time,
+git config --global user.name "Samikshaa19"
+git config --global user.email "samiksh0599@gmail.com"
+git config --global user.password "#password"
