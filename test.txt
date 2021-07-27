@@ -1,6 +1,6 @@
 Git Steps: 
 
-Step 1 : Create new folder
+1. Create new folder
 2. Right click folder n Open Git Bash
 3. Inside folder, create new file test.txt
 4. In Git Bash:
@@ -12,6 +12,14 @@ Step 1 : Create new folder
 	- git branch -M main
 	- git remote add origin (link in Github)
 	- git push -u origin main
+
+5. If changes made from Github:
+	- Edit the file and commit
+	- git pull origin main  //This will make changes in the local
+
+6. To create New Branch:
+	- git branch branch_name
+	-  git checkout testbranch //Git bash is pointing to main
 
 For first time,
 git config --global user.name "Samikshaa19"
